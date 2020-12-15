@@ -5,29 +5,29 @@ Supported by an [NYU Digital Humanities Seed Grant](https://nyuhumanities.org/fu
 
 ## There are three (identical) options for processing your transcript text files & creating the final dataset of named entities:
 
-`1) Running the script: 'SOR_SCRIPT.py'` <br>
-`2) Running the Jupyter Notebook: 'SOR_JUPYTER.ipynb'` <br>
-`3) Using the streamlit app: 'app.py'` <br>
+1) Running the script: 'SOR_SCRIPT.py' <br>
+2) Running the Jupyter Notebook: 'SOR_JUPYTER.ipynb' <br>
+3) Using the streamlit app: 'app.py' <br>
 
-` ** Implementation instructions for each of these options is contained in the SOR_DEMO.ipynb file. ** `
+** Implementation instructions for each of these options is contained in the SOR_DEMO.ipynb file. **
 
 ### Before implementing any of the above, ensure that you have installed the package requirements by doing the following:
 
 1) Clone this repository to your local machine
-2) In your command line, cd into the repository
-3) Run "pip install -r requirements.txt" in command line
+2) In your command line, cd into the repo by running `cd soul-of-reason-as-data`
+3) Run `pip install -r requirements.txt` 
 
 
 ### 1) Running the script (SOR_SCRIPT.py):
 
-1) In your command line, cd into the repository
-2) Run 'python3 SOR_SCRIPT.py' in your command line
+1) In your command line, cd into the repo by running `cd soul-of-reason-as-data`
+2) Run `python3 SOR_SCRIPT.py` 
 3) Enter the folder path to your text files when prompted
 4) Enter the file path to your metadata when prompted
 
 The script will then create the final dataset, download the csv & json files to your current working directory and return some statistics on the number of entities identified!
 
-`See the section entitled "Demo: Running the Script" in the SOR_DEMO file for complete instructions and an example.`
+See the section entitled "Demo: Running the Script" in the SOR_DEMO file for complete instructions and an example.
 
 
 ### 2) Using Jupyter notebook (SOR_JUPYTER.ipynb):
@@ -38,13 +38,13 @@ The script will then create the final dataset, download the csv & json files to 
 4) Follow the instructions in SOR_DEMO.ipynb on running each function
   - Note that you will need to replace the example folder & file paths with your speficic file locations
   
-`See the section entitled "Demo: Using the Jupyter Notebook" in the SOR_DEMO file for complete instructions and an example.`
+See the section entitled "Demo: Using the Jupyter Notebook" in the SOR_DEMO file for complete instructions and an example.
   
 ### 3) Using the streamlit app (app.py)
 
-1) In your command line, cd into the repository
-2) Run "streamlit run app.py" in your command line
-  - Note: if an error appears here, you may need to upgrade the protobuf package: run "pip install --upgrade protobuf" and then try again
+1) In your command line, cd into the repo by running `cd soul-of-reason-as-data`
+2) Run `streamlit run app.py` 
+  - Note: if an error appears here, you may need to upgrade the protobuf package: run `pip install --upgrade protobuf` and then try again
 3) The app should automatically open in your browser. Enter the required information on the sidebar and then click "run"
 
-`See the section entitled "Demo: Using the streamlit app" in the SOR_DEMO file for complete instructions and an example.`
+See the section entitled "Demo: Using the streamlit app" in the SOR_DEMO file for complete instructions and an example.
