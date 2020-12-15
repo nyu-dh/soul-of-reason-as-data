@@ -1,13 +1,13 @@
 glob2
 iteration-utilities
 ipython
-mkl-random
 more-itertools
 pandas
 path.py==12.0.1
 pathlib2==2.3.4
 pathtools==0.1.2
 regex
-spacy==2.3.2
 streamlit==0.71.0
 tqdm==4.50.2
+spacy==2.3
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.0/en_core_web_sm-2.3.0.tar.gz#egg=en_core_web_sm

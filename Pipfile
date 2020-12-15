@@ -1,0 +1,28 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+glob2 = "*"
+iteration-utilities = "*"
+ipython = "*"
+more-itertools = "*"
+pandas = "*"
+"path.py" = "==12.0.1"
+pathlib2 = "==2.3.4"
+pathtools = "==0.1.2"
+regex = "*"
+streamlit = "==0.71.0"
+tqdm = "==4.50.2"
+spacy = "==2.3"
+en-core-web-sm = {file = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.0/en_core_web_sm-2.3.0.tar.gz"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
+
+[scripts]
+sor_ner = "python scripts/SOR_SCRIPT.py"
+sor_ner = "python scripts/app.py"
