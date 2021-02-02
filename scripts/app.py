@@ -1,6 +1,6 @@
 from SOR_SCRIPT import NER
 
-import streamlit as st 
+import streamlit as st
 
 
 st.title('**Soul of Reason**')
