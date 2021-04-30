@@ -1,7 +1,5 @@
-from SOR_SCRIPT import NER
-
+from sor_script import NER
 import streamlit as st
-
 
 st.title('**Soul of Reason**')
 st.markdown(""" #### Named entity recognition of the "Soul of Reason" radio program transcripts. """)

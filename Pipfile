@@ -17,6 +17,7 @@ streamlit = "==0.71.0"
 tqdm = "==4.50.2"
 spacy = "==2.3"
 en-core-web-sm = {file = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.3.0/en_core_web_sm-2.3.0.tar.gz"}
+matplotlib = "*"
 
 [dev-packages]
 
@@ -24,5 +25,6 @@ en-core-web-sm = {file = "https://github.com/explosion/spacy-models/releases/dow
 python_version = "3.8"
 
 [scripts]
-sor_ner = "python scripts/SOR_SCRIPT.py"
-sor_ner = "python scripts/app.py"
+ner_script = "python entity_recognition/scripts/sor_script.py"
+ner_app    = "streamlit run entity_recognition/scripts/app.py"
+jupyter    = "jupyter notebook"
